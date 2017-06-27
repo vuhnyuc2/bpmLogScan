@@ -2,15 +2,13 @@
   <artifact type="exploded-war" name="TestScan:war exploded">
     <output-path>$PROJECT_DIR$/out/artifacts/TestScan_war_exploded</output-path>
     <root id="root">
-      <element id="javaee-facet-resources" facet="bpmLogScan/web/Web" />
       <element id="directory" name="WEB-INF">
         <element id="directory" name="classes">
-          <element id="module-output" name="bpmLogScan" />
-          <element id="file-copy" path="$PROJECT_DIR$/web/WEB-INF/classes/pmr.log" />
+          <element id="module-output" name="TestScan" />
         </element>
+        <element id="directory" name="lib" />
       </element>
-      <element id="file-copy" path="$PROJECT_DIR$/pmr.log" />
-      <element id="file-copy" path="$PROJECT_DIR$/educationAppLog.log" />
+      <element id="javaee-facet-resources" facet="TestScan/web/Web" />
     </root>
   </artifact>
 </component>
